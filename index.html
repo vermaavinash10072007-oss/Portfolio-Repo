@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta
+      name="description"
+      content="Professional portfolio of Avinash Verma — Software Developer, Engineer, and Web Technology Enthusiast."
+    />
+    <title>Avinash Verma — Professional Portfolio</title>
+    <!-- Formal Google Fonts: Plus Jakarta Sans for UI & Newsreader for editorial prestige -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Formal Header -->
+    <header class="executive-header" id="top">
+      <div class="header-container">
+        <a class="brand-signature" href="#top" aria-label="Avinash Verma Home">
+          <span class="brand-initials">AV</span>
+          <div class="brand-meta">
+            <span class="brand-name">Avinash Verma</span>
+            <span class="brand-title">Software Developer & Engineer</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+          <a class="nav-link active" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects & Training</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <!-- Header Actions: LinkedIn, Print -->
+        <div class="header-actions">
+          <button class="btn btn-secondary btn-sm print-cv-btn" id="print-cv-btn" type="button" title="Print or save as formal CV">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print CV</span>
+          </button>
+
+          <a
+            class="btn btn-primary btn-sm nav-linkedin-btn"
+            href="https://www.linkedin.com/in/avinash-verma-9809b5411?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Connect on LinkedIn"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
+            <span class="external-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <button class="mobile-toggle" id="mobile-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="container hero-container">
+          <div class="hero-badge-wrap">
+            <span class="status-indicator">
+              <span class="status-dot"></span>
+              <span>Available for Software Development & Engineering Opportunities</span>
+            </span>
+            <span class="meta-tag">Open to Work</span>
+          </div>
+
+          <div class="hero-grid">
+            <div class="hero-primary">
+              <h1 class="hero-title">
+                Avinash Verma
+              </h1>
+              <p class="hero-role">Software Developer & Computer Science Student</p>
+              <p class="hero-summary">
+                Passionate software developer focused on building modern web applications, clean responsive interfaces, and efficient software solutions. Strong foundation in <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>C</strong>, and <strong>C++</strong>.
+              </p>
+
+              <div class="hero-cta-group">
+                <a class="btn btn-primary" href="#projects">
+                  <span>View Projects & Work</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a class="btn btn-secondary" href="#contact">
+                  <span>Get in Touch</span>
+                </a>
+                <a
+                  class="btn btn-outline"
+                  href="https://www.linkedin.com/in/avinash-verma-9809b5411?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span>LinkedIn Profile</span>
+                  <span class="external-arrow" aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Stats / Highlights Panel -->
+            <aside class="hero-stats-panel" aria-label="Profile Highlights">
+              <div class="stat-card">
+                <span class="stat-num">Web</span>
+                <span class="stat-label">Frontend Development</span>
+                <span class="stat-desc">HTML5, CSS3, Modern JavaScript</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">C/C++</span>
+                <span class="stat-label">Core Programming</span>
+                <span class="stat-desc">Data Structures & Logic Building</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Responsive Design</span>
+                <span class="stat-desc">Mobile, Tablet & Desktop Layouts</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">Active</span>
+                <span class="stat-label">Continuous Learning</span>
+                <span class="stat-desc">Engineering & Web Technologies</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Biography</span>
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-bio">
+              <p class="lead-text">
+                Hello! I am <strong>Avinash Verma</strong>, a passionate software developer and engineering student focused on building robust web solutions, intuitive user experiences, and clean code.
+              </p>
+              <p>
+                My technical journey centers on learning software development principles from the fundamentals up — from system-level programming in <strong>C and C++</strong> to interactive, responsive web applications built with <strong>HTML5, CSS3, and JavaScript</strong>.
+              </p>
+              <p>
+                I take pride in writing structured, semantic code that prioritizes clean architecture, accessibility, cross-browser compatibility, and fast performance. I am continuously learning modern frameworks and tools to expand my capabilities and contribute effectively to engineering teams.
+              </p>
+
+              <div class="executive-principles">
+                <h3 class="principles-heading">Core Development Principles</h3>
+                <div class="principles-grid">
+                  <div class="principle-item">
+                    <span class="principle-bullet">01</span>
+                    <div>
+                      <strong>Semantic & Clean Code</strong>
+                      <p>Building standard-compliant, accessible, and well-structured codebases.</p>
+                    </div>
+                  </div>
+                  <div class="principle-item">
+                    <span class="principle-bullet">02</span>
+                    <div>
+                      <strong>Responsive & Modern UI</strong>
+                      <p>Designing user interfaces that look sharp across all screen sizes and devices.</p>
+                    </div>
+                  </div>
+                  <div class="principle-item">
+                    <span class="principle-bullet">03</span>
+                    <div>
+                      <strong>Problem Solving & Logic</strong>
+                      <p>Applying strong fundamentals in algorithms, programming logic, and data flow.</p>
+                    </div>
+                  </div>
+                  <div class="principle-item">
+                    <span class="principle-bullet">04</span>
+                    <div>
+                      <strong>Eager to Learn & Adapt</strong>
+                      <p>Quickly picking up new tools, frameworks, and modern industry workflows.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Profile Snapshot Card -->
+            <div class="about-sidebar">
+              <div class="snapshot-card">
+                <h3 class="snapshot-title">Profile Snapshot</h3>
+                <ul class="dossier-list">
+                  <li>
+                    <span class="dossier-label">Name</span>
+                    <span class="dossier-value">Avinash Verma</span>
+                  </li>
+                  <li>
+                    <span class="dossier-label">Role</span>
+                    <span class="dossier-value">Software Developer / Student</span>
+                  </li>
+                  <li>
+                    <span class="dossier-label">Education</span>
+                    <span class="dossier-value">Shri Ramswaroop Memorial University (SRMU)</span>
+                  </li>
+                  <li>
+                    <span class="dossier-label">Core Focus</span>
+                    <span class="dossier-value">Web Development, C, C++, Frontend</span>
+                  </li>
+                  <li>
+                    <span class="dossier-label">LinkedIn</span>
+                    <span class="dossier-value">
+                      <a href="https://www.linkedin.com/in/avinash-verma-9809b5411?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="formal-link">
+                        avinash-verma-9809b5411 ↗
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="dossier-label">Availability</span>
+                    <span class="dossier-value">Open to Internships & Junior Roles</span>
+                  </li>
+                </ul>
+
+                <div class="snapshot-action">
+                  <a class="btn btn-primary btn-block" href="#contact">Get In Touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Skills Section -->
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Capabilities</span>
+            <h2 class="section-title">Technical Skills & Competencies</h2>
+            <p class="section-subtitle">Core programming languages, web standards, and software development tools.</p>
+            <div class="section-divider"></div>
+          </div>
+
+          <!-- Skill Category Filter -->
+          <div class="skill-filters" role="tablist" aria-label="Skill categorization filters">
+            <button class="filter-btn active" type="button" data-filter="all" role="tab" aria-selected="true">All Skills</button>
+            <button class="filter-btn" type="button" data-filter="languages" role="tab" aria-selected="false">Programming Languages</button>
+            <button class="filter-btn" type="button" data-filter="frontend" role="tab" aria-selected="false">Frontend Web Development</button>
+            <button class="filter-btn" type="button" data-filter="tools" role="tab" aria-selected="false">Tools & Developer Practices</button>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Category: Programming Languages -->
+            <div class="skill-category-card" data-category="languages">
+              <div class="category-header">
+                <div class="category-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3 class="category-title">Programming Languages</h3>
+              </div>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">C Programming</span>
+                    <span class="skill-level">Fundamentals & Memory</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-level">Object-Oriented Programming & STL</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">JavaScript (ES6+)</span>
+                    <span class="skill-level">DOM Manipulation, Events, Logic</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category: Frontend Web Development -->
+            <div class="skill-category-card" data-category="frontend">
+              <div class="category-header">
+                <div class="category-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <h3 class="category-title">Frontend Web Development</h3>
+              </div>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-level">Semantic Structure & Forms</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">CSS3 & Styling</span>
+                    <span class="skill-level">Flexbox, CSS Grid, Transitions</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Responsive Web Design</span>
+                    <span class="skill-level">Media Queries & Mobile-First</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category: Tools & Developer Practices -->
+            <div class="skill-category-card" data-category="tools">
+              <div class="category-header">
+                <div class="category-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <h3 class="category-title">Tools & Development Workflow</h3>
+              </div>
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">VS Code</span>
+                    <span class="skill-level">Primary Editor & Debugging</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Git & Version Control</span>
+                    <span class="skill-level">Repository Management & Collaboration</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Browser Developer Tools</span>
+                    <span class="skill-level">DOM Inspection, Network & Styling</span>
+                  </div>
+                  <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects & Training Section -->
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Portfolio Works</span>
+            <h2 class="section-title">Projects & Practical Training</h2>
+            <p class="section-subtitle">Handcrafted web applications and software training projects built with clean HTML, CSS, and JavaScript.</p>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-domain">Web Development</span>
+                <span class="project-org">Portfolio</span>
+              </div>
+              <h3 class="project-title">Responsive Executive Portfolio Website</h3>
+              <p class="project-desc">
+                A modern, fully responsive personal portfolio website engineered using pure HTML5, CSS3, and vanilla JavaScript.
+              </p>
+              <div class="project-details">
+                <div class="detail-block">
+                  <span class="detail-label">Key Features:</span>
+                  <p>Light/Dark theme toggling, interactive skill filters, print-friendly CV stylesheet, and accessible keyboard navigation.</p>
+                </div>
+                <div class="detail-block">
+                  <span class="detail-label">Tech Stack:</span>
+                  <p>HTML5, CSS3 Flexbox & Grid, CSS Custom Properties, Vanilla JavaScript.</p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Responsive UI</span>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-domain">Frontend Design</span>
+                <span class="project-org">Training Project</span>
+              </div>
+              <h3 class="project-title">Interactive UI Components & Layout Showcase</h3>
+              <p class="project-desc">
+                A collection of modular UI components including data tables, image cards, media displays, and flexible box layout structures.
+              </p>
+              <div class="project-details">
+                <div class="detail-block">
+                  <span class="detail-label">Key Features:</span>
+                  <p>Tested CSS routing concepts, inline vs. block elements, CSS positioning, and cross-browser box model rendering.</p>
+                </div>
+                <div class="detail-block">
+                  <span class="detail-label">Tech Stack:</span>
+                  <p>CSS Grid, Flexbox, Media queries, HTML structure.</p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <span class="tag">CSS Flexbox</span>
+                <span class="tag">CSS Grid</span>
+                <span class="tag">UI Components</span>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <div class="project-header">
+                <span class="project-domain">System Programming</span>
+                <span class="project-org">Core Foundations</span>
+              </div>
+              <h3 class="project-title">C/C++ Algorithm & Logic Programs</h3>
+              <p class="project-desc">
+                Practical algorithmic implementations in C and C++ focused on mathematical operations, logic flow, and computational efficiency.
+              </p>
+              <div class="project-details">
+                <div class="detail-block">
+                  <span class="detail-label">Key Features:</span>
+                  <p>Standard input/output, arithmetic operations, conditional logic, loops, and modular programming structures.</p>
+                </div>
+                <div class="detail-block">
+                  <span class="detail-label">Tech Stack:</span>
+                  <p>C, C++, GCC Compiler, Terminal execution.</p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <span class="tag">C</span>
+                <span class="tag">C++</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Problem Solving</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="section education-section" id="education">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Academic Background</span>
+            <h2 class="section-title">Education & Qualifications</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="education-grid">
+            <div class="education-card">
+              <div class="edu-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="edu-content">
+                <span class="degree-badge">University Studies</span>
+                <h3 class="degree-title">Higher Education in Computer Science & Engineering</h3>
+                <h4 class="institution-name">Shri Ramswaroop Memorial University (SRMU)</h4>
+                <div class="edu-meta">
+                  <span class="location">Lucknow / Barabanki, Uttar Pradesh, India</span>
+                </div>
+                <p class="edu-desc">
+                  Curriculum covering programming fundamentals, computer system architecture, web design, software engineering methodologies, and hands-on practical training.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Connect</span>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for internship opportunities, technical collaborations, or a quick chat.</p>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info Panel -->
+            <div class="contact-info-panel">
+              <h3 class="contact-panel-title">Contact Channels</h3>
+              <p class="contact-panel-desc">
+                You can reach me directly on LinkedIn or send a message using the form below.
+              </p>
+
+              <div class="contact-methods">
+                <div class="method-card">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">LinkedIn Profile</span>
+                    <a
+                      href="https://www.linkedin.com/in/avinash-verma-9809b5411?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="method-value"
+                    >
+                      linkedin.com/in/avinash-verma-9809b5411 ↗
+                    </a>
+                  </div>
+                </div>
+
+                <div class="method-card">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Location</span>
+                    <span class="method-value">India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-panel">
+              <form class="formal-form" id="contact-form" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Your Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+                    <span class="field-error" id="name-error"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required />
+                    <span class="field-error" id="email-error"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject <span class="required">*</span></label>
+                  <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select subject...</option>
+                    <option value="Internship Opportunity">Internship / Job Opportunity</option>
+                    <option value="Project Collaboration">Project Collaboration</option>
+                    <option value="General Message">General Inquiry</option>
+                  </select>
+                  <span class="field-error" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message <span class="required">*</span></label>
+                  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+
+                <div class="form-actions">
+                  <button class="btn btn-primary btn-block" type="submit" id="submit-btn">
+                    <span>Send Message</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Formal Footer -->
+    <footer class="executive-footer">
+      <div class="container footer-container">
+        <div class="footer-top">
+          <div class="footer-identity">
+            <span class="footer-name">Avinash Verma</span>
+            <span class="footer-creds">Software Developer & Engineering Student</span>
+            <p class="footer-motto">Building clean, accessible, and responsive web solutions.</p>
+          </div>
+          <div class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <a href="https://www.linkedin.com/in/avinash-verma-9809b5411?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            &copy; <span id="current-year">2026</span> Avinash Verma. All rights reserved.
+          </p>
+          <a class="back-to-top" href="#top" aria-label="Return to top">
+            <span>Back to Top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
